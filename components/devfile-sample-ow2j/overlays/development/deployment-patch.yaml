@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ow2j
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0038-tenant/cin4s-839-0038-app/devfile-sample-ow2j@sha256:588ba3592782437b2e2fa5189623a6f7f1b237bbea69df059e54683f137c24dd
+        name: my-nodejs
+        resources: {}
+status: {}
